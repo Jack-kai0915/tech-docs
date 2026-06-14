@@ -1,0 +1,14 @@
+{
+  "name": "tech-docs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "技术学习文档 - Python、TypeScript 和 Node.js 完整指南",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.44"
+  }
+}
