@@ -4,6 +4,7 @@ export default defineConfig({
   title: '技术学习手册',
   description: 'Python、TypeScript、Node.js 和 AI 完整学习指南',
   lang: 'zh-CN',
+  base: '/tech-docs/',
   
   themeConfig: {
     logo: '/logo.svg',
