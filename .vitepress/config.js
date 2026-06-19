@@ -60,6 +60,19 @@ export default defineConfig({
         ]
       },
       {
+        text: 'JavaScript 进阶',
+        items: [
+          { text: '核心进阶', link: '/js-advanced/core' },
+          { text: '浏览器存储', link: '/js-advanced/storage' },
+          { text: '网络与请求', link: '/js-advanced/network' },
+          { text: '文件与二进制', link: '/js-advanced/file' },
+          { text: 'Canvas 图形', link: '/js-advanced/canvas' },
+          { text: 'Web Worker', link: '/js-advanced/worker' },
+          { text: '浏览器 API', link: '/js-advanced/browser-api' },
+          { text: '性能优化', link: '/js-advanced/performance' }
+        ]
+      },
+      {
         text: 'HTML & CSS',
         items: [
           { text: 'CSS 基础', link: '/html-css/css/' },
@@ -76,6 +89,7 @@ export default defineConfig({
         text: '运维 & DevOps',
         items: [
           { text: '运维基础', link: '/devops/chapter1' },
+          { text: 'Windows 命令', link: '/devops/windows' },
           { text: '网络运维', link: '/devops/chapter2' },
           { text: 'Docker 容器化', link: '/devops/chapter3' },
           { text: 'Nginx 反向代理', link: '/devops/chapter4' },
@@ -303,6 +317,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '运维基础与工具链', link: '/devops/chapter1' },
+            { text: 'Windows 11 命令大全', link: '/devops/windows' },
             { text: '网络运维与故障排查', link: '/devops/chapter2' },
             { text: 'Docker 容器化运维', link: '/devops/chapter3' },
             { text: 'Nginx 反向代理', link: '/devops/chapter4' },
@@ -321,6 +336,22 @@ export default defineConfig({
             { text: '生命周期', link: '/vue-react/chapter4' },
             { text: '路由', link: '/vue-react/chapter5' },
             { text: '避坑指南', link: '/vue-react/chapter8' }
+          ]
+        }
+      ],
+      '/js-advanced/': [
+        {
+          text: 'JavaScript 进阶',
+          collapsed: false,
+          items: [
+            { text: '核心进阶', link: '/js-advanced/core' },
+            { text: '浏览器存储', link: '/js-advanced/storage' },
+            { text: '网络与请求', link: '/js-advanced/network' },
+            { text: '文件与二进制', link: '/js-advanced/file' },
+            { text: 'Canvas 图形', link: '/js-advanced/canvas' },
+            { text: 'Web Worker', link: '/js-advanced/worker' },
+            { text: '浏览器 API', link: '/js-advanced/browser-api' },
+            { text: '性能优化', link: '/js-advanced/performance' }
           ]
         }
       ],
